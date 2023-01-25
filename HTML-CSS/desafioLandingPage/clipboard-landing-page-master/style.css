@@ -11,6 +11,7 @@ body {
     margin: 0 auto;
     padding: 0 auto;
     line-height: 35px;
+    color:  hsl(201, 11%, 66%);
 }
 
 h1 {
@@ -18,6 +19,7 @@ h1 {
     margin-bottom: 10px;
     font-size: 35px;
     text-align: center;
+    color:  hsl(210, 10%, 33%);
 }
 
 header {
@@ -41,13 +43,13 @@ header {
     margin-top: 80px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     gap: 100px;
 }
 
 .conteudoLadopc {
-    margin: 0;
-    padding: 0;
+    margin-top: 23px;
+    text-align: justify;
 }
 
 .containerDevices {
@@ -121,17 +123,59 @@ header {
 }
 
 footer {
-    margin-top: 100px;
-    display: flex;
-    justify-content: center;
-    border: none;
-    background-color: #ebf7f6;
     
+    height: 150px;
+    min-width: 200px;
+    margin-top: 100px;
+    align-items: center;
+    display: flex;
+    padding: 0 200px;
+    border: none;
+    background-color: #f5f6f8;
+    justify-content: center;
 }
 
 li {
-    display:inline-block;
-    margin: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.icons {
+    display: flex;
+    justify-content: end;
+}
 
+.imgIcon {
+    width: 30px;
+    height: 30px;
+    padding-right: 20px;
+    
+
+}
+
+.footer__links {
+    display: flex;
+    gap: 44px;
+    width: 100%;
+}
+
+.links__group {
+    display: flex;
+    flex-direction: column;
+}
+
+.links__group a {
+    text-decoration: none;
+    color: hsl(201, 11%, 66%);
+    font-weight: bold;
+}
+
+.logofooter {
+    width: 200px;
+}
+
+.logofooter img {
+    width: 100%;
+    max-width: 50px;
+}
