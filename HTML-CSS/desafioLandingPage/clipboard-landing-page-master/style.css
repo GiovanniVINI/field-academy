@@ -22,6 +22,16 @@ h1 {
     color:  hsl(210, 10%, 33%);
 }
 
+h2 {
+    color:  hsl(210, 10%, 33%);
+    margin-bottom: 10px;
+}
+
+h3 {
+    color:  hsl(210, 10%, 33%);
+    margin-bottom: 10px;
+}
+
 header {
     background-image: url(./images/bg-header-desktop.png);
     /*text-align: center;*/
@@ -52,9 +62,10 @@ header {
     text-align: justify;
 }
 
-.containerDevices {
-    text-align: center;
-    margin-top: 80px;
+.devices {
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
 }
 
 /* Design botões */
@@ -92,8 +103,8 @@ header {
 #superchargContent {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
     padding: 0;
+    padding-right: 100px;
 }
 
 #blocoCreate {
@@ -105,7 +116,7 @@ header {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-right: 60px;
+    /*margin-right: 60px;*/
 }
 
 #blocoSneak {
@@ -118,7 +129,7 @@ header {
     margin-top: 100px;
     display: flex;
     justify-content: space-between;
-    margin-left: 100px;
+    /*margin-left: 100px; */
     margin-bottom: 100px;
 }
 
@@ -147,8 +158,8 @@ li {
 }
 
 .imgIcon {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     padding-right: 20px;
     
 

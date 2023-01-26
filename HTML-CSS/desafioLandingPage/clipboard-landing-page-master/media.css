@@ -1,0 +1,89 @@
+@media screen and (max-width: 1090px){
+
+.actions {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.pc{
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+
+section.containerinicio {
+    width: 90%;
+    height: 90%;
+    align-items: center;
+    text-align: center;
+}
+
+.containerinicio {
+    flex-direction: column;
+}
+
+.devices {
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+}
+
+p {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+#superchargContent {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding-right: 0;
+}
+
+#containerEmpresas {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+footer {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.footer__links {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+div.logofooter {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.logofooter img {
+    max-width: 30%;
+}
+
+.icons {
+    align-items: center;
+    gap: 15px;
+}
+
+.imgIcon {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding-right: 0;
+}
+    
+}
