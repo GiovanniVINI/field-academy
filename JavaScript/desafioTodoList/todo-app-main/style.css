@@ -72,48 +72,41 @@ main {
   outline: none;
 }
 
-ul {
-  display: flex;
-  flex-direction: column-reverse;
-  margin-bottom: 20px;
-}
-
-.divLi { /* Mudar */
-  position: relative;
+.divLi { 
+  margin-top: 10px;
   background-color: #ffffff;
   padding: 1.8em 1.25em;
   border-radius: 0.3em;
   box-shadow: 0 1.25em 1.8em rgba(1, 24, 48, 0.15);
-  display: flex;
-  grid-template-columns: 9fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 8fr 1fr;
   gap: 1em;
 }
 
-.divLi span { /* Mudar */
-  width: 80%;
-  color: dimgray;
-}
-
-.divLi input { /* Mudar */
+.divLi span { 
   font-size: 1em;
-  border: none;
   border-bottom: 2px solid #d1d3d4;
   padding: 0.8em 0.5em;
   color: #111111;
   font-weight: 500;
 }
 
-.divLi i { /* Mudar */
-  font-size: 22px;
-  color: black;
+.divLi button {
+  border: none;
+  border-radius: 23px;
+ 
 }
 
-li { /* Mudar */
+ul {
+  padding: 0;
+}
+
+li { 
   list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
 }
 
-.line-through { /* Mudar */
-  text-decoration: line-through;
-}
+
 
 

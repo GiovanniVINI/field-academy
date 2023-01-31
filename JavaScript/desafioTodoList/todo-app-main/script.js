@@ -44,7 +44,7 @@ function setItemDB() {
     
     li.innerHTML = `
       <div class="divLi">
-        <input type="checkbox" ${status} data-i=${i} onchange="done(this, ${i});" />
+        <input class='check' type="checkbox" ${status} data-i=${i} onchange="done(this, ${i});" />
         <span data-si=${i}>${text}</span>
         <button onclick="removeItem(${i})" data-i=${i}><i class='bx bx-trash'></i></button>
       </div>
